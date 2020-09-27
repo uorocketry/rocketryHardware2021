@@ -12,6 +12,7 @@ We're going to be learning how to best use this repo together, but for now, here
 2. Link to [Fritzing](https://www.filehorse.com/download-fritzing-64/download/) for protoboard design
 3. Best site for BUYING components: [Mouser.ca](https://www.mouser.ca/)
 4. Best site for LIBRARY FILES For components: [Digikey.ca](https://www.digikey.ca/)
+5. Good [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf) to print and have by your desk
 5. Inspiration for our final flight computer from the [MIT Pyxida](http://rocketry.mit.edu/2016/09/pyxida-flight-computer/) 
 
 ## Decision Log
@@ -28,3 +29,8 @@ Big take-aways for the day:
 8. Update markdown file to include all of this.
 
 ##### Sep. 26, 2020
+Big take-aways for the day:  Welcomed new member to hardware and discussed the power regulation that we'll need to start thinking about for our January mini-launch.
+1. Step down ~7V to 5V exactly 
+2. Brownout protection on Pi - some kind of capacitance that will keep up ~2A over ~1s (maybe more with margin of error)
+3. Current limiting to RRC3 so we don't get the full ~400A output.
+4. Include a power switch (can we have backup and main on same battery? Is that even a good idea?)
