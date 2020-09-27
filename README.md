@@ -12,6 +12,7 @@ We're going to be learning how to best use this repo together, but for now, here
 2. Link to [Fritzing](https://www.filehorse.com/download-fritzing-64/download/) for protoboard design
 3. Best site for BUYING components: [Mouser.ca](https://www.mouser.ca/)
 4. Best site for LIBRARY FILES For components: [Digikey.ca](https://www.digikey.ca/)
+5. Inspiration for our final flight computer from the [MIT Pyxida](http://rocketry.mit.edu/2016/09/pyxida-flight-computer/) 
 
 ## Decision Log
 
