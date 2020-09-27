@@ -16,6 +16,15 @@ We're going to be learning how to best use this repo together, but for now, here
 5. Inspiration for our final flight computer from the [MIT Pyxida](http://rocketry.mit.edu/2016/09/pyxida-flight-computer/) 
 
 ## Decision Log
+In reverse chronological order
+
+##### Sep. 26, 2020
+Big take-aways for the day:  Welcomed new member to hardware and discussed the power regulation that we'll need to start thinking about for our January mini-launch.
+1. Step down ~7V to 5V exactly 
+2. Brownout protection on Pi - some kind of capacitance that will keep up ~2A over ~1s (maybe more with margin of error)
+3. Current limiting to RRC3 so we don't get the full ~400A output.
+4. Include a power switch (can we have backup and main on same battery? Is that even a good idea?)
+
 
 ##### Sep. 19, 2020
 Big take-aways for the day:
@@ -27,10 +36,3 @@ Big take-aways for the day:
 6. Keep using Github
 7. Download/ use Fritzring for visualizing final pi hat
 8. Update markdown file to include all of this.
-
-##### Sep. 26, 2020
-Big take-aways for the day:  Welcomed new member to hardware and discussed the power regulation that we'll need to start thinking about for our January mini-launch.
-1. Step down ~7V to 5V exactly 
-2. Brownout protection on Pi - some kind of capacitance that will keep up ~2A over ~1s (maybe more with margin of error)
-3. Current limiting to RRC3 so we don't get the full ~400A output.
-4. Include a power switch (can we have backup and main on same battery? Is that even a good idea?)
