@@ -1,5 +1,5 @@
 # flightcomputer2020
-This repo contains EAGLE and other design files for PCBs in the 2020-2010 flight campaign.  
+This repo contains EAGLE and other design files for PCBs in the 2020-2021 flight campaign.  
 
 
 ## Project Stages
